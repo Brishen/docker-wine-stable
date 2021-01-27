@@ -11,7 +11,7 @@ RUN apt-get -y update && \
 	
 RUN useradd -m wine
 USER wine
-RUN winetricks vcrun2019 vcrun2017 vcrun2015 vcrun2013 dotnet48 dotnet472 dotnet35sp1
+RUN winetricks vcrun2017 vcrun2015 vcrun2013 dotnet48 dotnet472 dotnet35sp1
 WORKDIR /home/wine
 ENV HOME /home/wine
 
