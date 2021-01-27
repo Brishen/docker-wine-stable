@@ -1,4 +1,4 @@
-FROM buildpack-deps:focal-curl
+FROM buildpack-deps:focal-scm
 MAINTAINER Brishen Hawkins
 
 RUN apt-get -y update && \
